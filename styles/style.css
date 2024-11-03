@@ -99,6 +99,12 @@ body{
     margin-left: 34px;
 }
 
+.header-cart-price{
+    margin-top:5px;
+    font-weight: 700;
+    font-size: 12px;  
+}
+
 .header-triangle-image{
     margin-top: 8px;
 }
@@ -112,7 +118,7 @@ body{
 
     width: 544px;
     height: 279px;
-    padding-top: 66px;
+
     margin-right: 60px;
 }
 
@@ -142,6 +148,10 @@ body{
     box-shadow: 0px 7px 35px 0px #EB2D665C;
 }
 
+.main-button-catalog:hover{
+    opacity: 85%;
+
+}
 .main-image{
     position: relative;
 }
@@ -153,33 +163,36 @@ body{
 
 .main-image-text{
     position: absolute;
-    top: 100px;
-    left: 335px;
+    top: 80px;
+    left: 300px;
     width: 253px;
     height: 82px;
 }
 .main-image-square{
     width: 13px;
     height: 13px;
-    background-color: black;
+    background-color: #FFFFFF;
 }
 
 .main-jordan-text{
-    color: black;
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 17px;
+    margin-left:18px;
 }
 
 .main-jordan-description{
     font-weight: 400;
     font-size: 12px;
-    color:black;
+    color:#FFFFFF;
+    margin-left:18px;
 }
 
 .main-jordan-price{
     font-weight: 700;
     font-size: 12px;
-    color:black;
+    color:#FFFFFF;
+    margin-left:18px;
 }
 .main-switch-images{
     display: flex;
@@ -191,14 +204,20 @@ body{
 .main-switch-rectangle{
     width: 39px;
     height: 8px;
-    background-color: black;
+    background-color:#DAD7D759;
+
     opacity: 35%;
     
 }
 
-
 .main-switch-rectangle:hover{
     background-color:#FBFBFB;
-    
+    opacity: 100%;
+}
+
+.main-sneakers{
+    position: absolute;
+    top:108px;
+    right:220px;
 }
 
