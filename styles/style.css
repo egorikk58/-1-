@@ -4,10 +4,39 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: white;
 }
+
 .header{
-    max-width: 1920px;
+    height: 84px;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0px auto;
     display: flex;
     align-items: center;
+}
+.header-main-page{
+    display: flex;
+    padding: 0px;
+}
+.header-logo{
+    margin-right: 10px;
+}
+
+.header-text-title{
+    font-size: 12px;
+    font-weight: 700;
+    color:#3145FF;
+}
+
+.header-text-description{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.header-menu{
+    padding: 34px 61px 35px 39px;
 }
 
 .header-menu-list{
@@ -25,10 +54,35 @@ body{
     transition:all 0.2s ease-in;
 }
 
+.header-three-dots{
+    padding: 8px 0 6px 0;
+    display: flex;
+    column-gap:5px;
+}
+
+.header-menu-dot{
+    height: 3px;
+    width: 3px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.header-three-dots:hover .header-menu-dot {
+    background-color: #3145FF;
+}
+
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
 .header-actions-call{
+    padding:34px 0 35px 0;
     color: black;
     font-weight: 700;
     font-size: 13px;
+    margin-right: 34px;
 }
 
 .header-request-button{
@@ -38,3 +92,113 @@ body{
     font-weight: 700;
     font-size: 11px;
 }
+
+.header-cart-button{
+    display: flex;
+    column-gap: 15px;
+    margin-left: 34px;
+}
+
+.header-triangle-image{
+    margin-top: 8px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-page-text{
+
+    width: 544px;
+    height: 279px;
+    padding-top: 66px;
+    margin-right: 60px;
+}
+
+.main-description{
+    font-size: 36px;
+    font-weight: 900;
+    color:#2A2D46;
+    margin-bottom: 25px;
+}
+
+.main-about{
+    width: 380px;
+    height: 78px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.main-button-catalog{
+    width: 239px;
+    height: 63px;
+    padding: 20px 42px;
+    background-color: #EB2D66;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    box-shadow: 0px 7px 35px 0px #EB2D665C;
+}
+
+.main-image{
+    position: relative;
+}
+.main-sneakers-backside{
+    margin-top: 21px;
+    display: block;
+    margin-left: auto;
+}
+
+.main-image-text{
+    position: absolute;
+    top: 100px;
+    left: 335px;
+    width: 253px;
+    height: 82px;
+}
+.main-image-square{
+    width: 13px;
+    height: 13px;
+    background-color: black;
+}
+
+.main-jordan-text{
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.main-jordan-description{
+    font-weight: 400;
+    font-size: 12px;
+    color:black;
+}
+
+.main-jordan-price{
+    font-weight: 700;
+    font-size: 12px;
+    color:black;
+}
+.main-switch-images{
+    display: flex;
+    column-gap: 18px;
+    position: absolute;
+    left:419px;
+    top: 332px;
+}
+.main-switch-rectangle{
+    width: 39px;
+    height: 8px;
+    background-color: black;
+    opacity: 35%;
+    
+}
+
+
+.main-switch-rectangle:hover{
+    background-color:#FBFBFB;
+    
+}
+

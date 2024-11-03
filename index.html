@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,50 +9,93 @@
 </head>
 <body>
     <header class = "header">
-        <div class="header-logo">
-            <img src="icons/Логотип.svg" alt="Баскетболер logo" class="header-logo-image" width="29" height="29">
-        </div>
-        <div class = "header-text">
-            <h2 class="header-text-title">Баскетболер</h2>
-            <p class="header-text-description">Магазин баскетбольных товаров</p>
-        </div>
-        <nav class="header-menu">
-            <ul class="header-menu-list">
-                <li class="header-menu-item">
-                    <a class="header-menu-link" href="#!">Мячи</a>
-                </li>
-                <li class="header-menu-item">
-                    <a class="header-menu-link" href="#!">Кроссовки</a>
-                </li>
-                <li class="header-menu-item">
-                    <a class="header-menu-link" href="#!">Майки</a>
-                </li>
-                <li class="header-menu-item">
-                    <a class="header-menu-link" href="#!">Шорты</a>
-                </li>
-                <li class="header-menu-item">
-                    <a class="header-menu-link" href="#!">
-                        <img src="icons/ки.svg" alt="Другое" class="header-menu-other" width="19" height="3">
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="header-actions">
-            <a 
-                href="tel:8(908)45-32-7798" 
-                class="header-actions-call"
-            >
-                8(908)45-32-7798
-            </a>
-            <button class="header-request-button button" type = "button">
-                Заказать звонок
-            </button>
-            <button class="header-cart-button">
-                <img src="icons/Cart.svg" alt="Корзина" class="header-cart-image" width="25" height="23">
-                <div class="header-cart-price">3 243 руб.</div>
-                <img src="icons/Figure_cart.svg" alt="Открыть корзину" width="11" height="6">
-            </button>
+        <div class="container">
+            <div class="header-main-page">
+                <div class="header-logo">
+                    <img src="icons/Логотип.svg" alt="Баскетболер logo" class="header-logo-image" width="29" height="29">
+                </div>
+                <div class = "header-text">
+                    <h2 class="header-text-title">БАСКЕТБОЛЕР</h2>
+                    <p class="header-text-description">Магазин баскетбольных товаров</p>
+                </div>
+            </div>
+            <nav class = "header-menu">
+                <ul class="header-menu-list">
+                    <li class="header-menu-item">
+                        <a class="header-menu-link" href="#!">Мячи</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a class="header-menu-link" href="#!">Кроссовки</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a class="header-menu-link" href="#!">Майки</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a class="header-menu-link" href="#!">Шорты</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a class="header-menu-link " href="#!">
+                            <div class="header-three-dots">
+                                <div class="header-menu-dot"></div>
+                                <div class="header-menu-dot"></div>
+                                <div class="header-menu-dot"></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class = "header-actions">
+                <a 
+                    href="tel:8(908)45-32-7798" 
+                    class="header-actions-call"
+                >
+                    8(908)45-32-7798
+                </a>
+                <button class="header-request-button button" type = "button">
+                    Заказать звонок
+                </button>
+                <button class="header-cart-button button">
+                    <img src="icons/Cart.svg" alt="Корзина" class="header-cart-image" width="25" height="23">
+                    <div class="header-cart-price">3 243 руб.</div>
+                    <img src="icons/Figure_cart.svg" alt="Открыть корзину" class = "header-triangle-image" width="11" height="6">
+                </button>
+            </div>
         </div>
     </header>
+    <main class = main>
+        <div class="container">
+            <div class="main-page-text">
+                <h1 class="main-description">
+                    Оригинальные и дешевые товары для спортсменов
+                </h1>
+                <h2 class="main-about">
+                    Мы собрали настоящие вещи от лучших
+                    брендов, чтобы порадовать вас
+                    качетсвенным товаром
+                </h2>
+                <button class="main-button-catalog button">
+                    Смотреть каталог
+                </button>
+            </div>
+
+            <div class="main-image">
+                <img src="images/Задний фон кросс.png" alt="Бэкграунд кроссовок" class = "main-sneakers-backside" width = "615" height="369">
+                <div class="main-image-text">
+                    <div class="main-image-square"></div>
+                    <h1 class="main-jordan-text">Nike Air Jordan 1</h1>
+                    <h2 class="main-jordan-description">
+                        Верх из натуральной красной замши<p>
+                        дополнен накладкой с текстурой.</p>
+                    </h2>
+                    <h3 class = "main-jordan-price">5780 руб.</h3>
+                </div>
+                <div class="main-switch-images">
+                    <div class="main-switch-rectangle"></div>
+                    <div class="main-switch-rectangle"></div>
+                    <div class="main-switch-rectangle"></div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
