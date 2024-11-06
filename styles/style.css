@@ -16,11 +16,11 @@ body{
     padding: 0 15px;
     margin: 0px auto;
     display: flex;
-    align-items: center;
+
 }
 .header-main-page{
     display: flex;
-    padding: 0px;
+    margin-top: 27px;
 }
 .header-logo{
     margin-right: 10px;
@@ -85,6 +85,7 @@ body{
     font-weight: 700;
     font-size: 13px;
     margin-right: 34px;
+    color: #2A2D46;
 }
 
 .header-request-button{
@@ -115,7 +116,7 @@ body{
 
     width: 544px;
     height: 279px;
-
+    margin-top: 66px;
     margin-right: 60px;
 }
 
@@ -316,4 +317,149 @@ body{
 .catalog-right{
     margin-left: 56px;
 }
+
+.catalog-slide-gray{
+    margin-left: 850px;
+    margin-top: 38px;
+    position: relative;
+    width: 470px;
+    height: 6px;
+    background-color: #E2E4F2;
+    text-align: center;
+    margin-bottom: 99px;
+}
+
+.catalog-slide-black{
+    width: 47px;
+    height: 13px;
+    background-color: #9094B8;
+    box-shadow: 0px 2px 10px 0px #0000003B;
+    position: absolute;
+    top: 1118px;
+    left: 950px;
+}
+
+.catalog-card{
+    margin-left: 80px;
+}
+
+.catalog-card-left{
+    position: relative;
+}
+
+.catalog-card-right{
+    position: relative;
+}
+
+.catalog-left-image{
+    width: 570px;
+    height: 419px;
+    position: relative;
+    
+}
+
+.catalog-right-image{
+    margin-left: 30px;
+    width: 567px;
+    height: 419px;
+    position: relative;
+
+}   
+
+.catalog-overlay-left{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 570px;
+    height: 419px;
+    background: linear-gradient(137.36deg, rgba(17, 13, 251, 0.69) 0%, rgba(116, 114, 243, 0.81) 100%);
+}
+
+.catalog-overlay-right{
+    margin-left: 30px;
+    width: 567px;
+    height: 419px;    
+    position: absolute;
+    top:0;
+    left: 0;
+    background: linear-gradient(118.38deg, rgba(140, 0, 251, 0.76) 0%, rgba(214, 30, 244, 0.31) 100%);
+}
+
+.catalog-plus{
+    position: absolute;
+    width: 23px;
+    height: 44px;
+    right: 12px;
+    top:6px;
+}
+.catalog-square-left{
+    color:#FFFFFF;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top:273px;
+    left:69px;
+}
+.catalog-square-right{
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top:273px;
+    left:69px;
+}
+
+.card-left-text{
+    width: 228px;
+    height: 48px;
+    top: 1515px;
+    left: 820px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFFFFF;
+
+}
+
+.card-left-desc{
+    width: 228px;
+    height: 48px;
+    top: 1575px;
+    left: 820px;
+    position: absolute;
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+.card-right-text{
+
+    top: 1515px;
+    left: 1392px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+
+    font-size: 20px;
+    font-weight: 900;
+    color: #FFFFFF;
+
+}
+
+.card-right-desc{
+
+    top: 1575px;
+    left: 1392px;
+    position: absolute;
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
 
