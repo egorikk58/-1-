@@ -7,6 +7,8 @@ body{
 
 .header{
     height: 84px;
+    display: flex;
+    align-items: center;
 }
 
 .container{
@@ -107,11 +109,6 @@ body{
 
 .header-triangle-image{
     margin-top: 8px;
-}
-
-.main {
-    display: flex;
-    justify-content: space-between;
 }
 
 .main-page-text{
@@ -219,5 +216,104 @@ body{
     position: absolute;
     top:108px;
     right:220px;
+}
+
+.catalog{
+    margin-top: 96px;
+}
+
+.catalog-header{
+    display: flex;
+}
+
+.catalog-nav-list{
+    display: flex;
+    column-gap: 63.5px;
+    padding-top: 6px;
+}
+
+.catalog-content-item{
+    background-color:#FFFFFF;
+    width: 270px;
+    height: 417px;
+    box-shadow: 0px 15px 30px 0px #3145FF12;
+
+}
+
+.catalog-header-name{
+    font-size: 25px;
+    font-weight: 900;
+    color: #2A2D46;
+    margin-right: 94px;
+}
+
+
+.catalog-title{
+    margin-bottom: 82px;
+}
+
+.catalog-content-list{
+    display: flex;
+    column-gap: 30px;
+}
+.catalog-content-item{
+    position: relative;
+
+}
+
+.catalog-item-header{
+    font-weight: 900;
+    font-size: 16px;
+    color: #2A2D46;
+    position: absolute;
+    top: 20px;
+    left: 44px;
+}
+
+.catalog-item-image{
+    position: absolute;
+    top: 47px;
+    left: 39px;
+}
+
+.catalog-item-description{
+    position: absolute;
+    top:257px;
+    left:23px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.catalog-item-lastprice{
+    position: absolute;
+    top: 336px;
+    left: 100px;
+    text-decoration: line-through;
+    font-weight: 400;
+    font-style: 14px;
+}
+
+.catalog-item-price{
+    position: absolute;
+    color: #3145FF;
+    font-weight: 700;
+    font-size: 18px;
+    top: 356px;
+    left:31px;
+}
+
+.catalog-item-next{
+    position: absolute;
+    top:356px;
+    left: 217px;
+}
+
+.catalog-left{
+    margin-right: 19px;
+}
+
+.catalog-right{
+    margin-left: 56px;
 }
 
