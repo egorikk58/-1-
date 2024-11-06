@@ -47,6 +47,7 @@ body{
 }
 
 .header-menu-link{
+    color:#2A2D46;
     font-weight: 400;
     font-size: 12px;
 }
@@ -473,9 +474,3 @@ body{
     color:#3145FF;
 
 }
-
-.catalog-menu-link:visited{
-    color: #2A2D46;
-
-}
-
