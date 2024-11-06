@@ -412,7 +412,7 @@ body{
     width: 228px;
     height: 48px;
     top: 1515px;
-    left: 820px;
+    left: 520px;
     gap: 0px;
     opacity: 0px;
     position: absolute;
@@ -427,7 +427,7 @@ body{
     width: 228px;
     height: 48px;
     top: 1575px;
-    left: 820px;
+    left: 520px;
     position: absolute;
 
     font-size: 15px;
@@ -439,7 +439,7 @@ body{
 .card-right-text{
 
     top: 1515px;
-    left: 1392px;
+    left: 1092px;
     gap: 0px;
     opacity: 0px;
     position: absolute;
@@ -453,7 +453,7 @@ body{
 .card-right-desc{
 
     top: 1575px;
-    left: 1392px;
+    left: 1092px;
     position: absolute;
 
     font-size: 15px;
@@ -462,4 +462,20 @@ body{
 
 }
 
+.catalog-menu-link{
+    color: #2A2D46;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.catalog-menu-link:hover{
+    color:#3145FF;
+
+}
+
+.catalog-menu-link:visited{
+    color: #2A2D46;
+
+}
 
