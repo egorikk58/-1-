@@ -89,12 +89,20 @@ body{
     color: #2A2D46;
 }
 
+.header-actions-call:hover{
+    
+}
+
 .header-request-button{
     border: 1px solid #EB2D66;
     color: #EB2D66;
     padding: 6px 12px;
     font-weight: 700;
     font-size: 11px;
+}
+
+.header-request-button:hover{
+    opacity: 75%;
 }
 
 .header-cart-button{
@@ -149,7 +157,6 @@ body{
 
 .main-button-catalog:hover{
     opacity: 85%;
-
 }
 .main-image{
     position: relative;
