@@ -322,8 +322,8 @@ body{
     margin-left: 56px;
 }
 
-.catalog-slide-gray{
-    margin-left: 850px;
+.catalog-slide-gray {
+    margin-left: 440px;
     margin-top: 38px;
     position: relative;
     width: 470px;
@@ -333,14 +333,14 @@ body{
     margin-bottom: 99px;
 }
 
-.catalog-slide-black{
+.catalog-slide-black {
     width: 47px;
     height: 13px;
     background-color: #9094B8;
     box-shadow: 0px 2px 10px 0px #0000003B;
     position: absolute;
-    top: 1118px;
-    left: 950px;
+    top: -3.5px;
+    cursor: pointer; /* Курсор указывает на возможность перетаскивания */
 }
 
 .catalog-card{
